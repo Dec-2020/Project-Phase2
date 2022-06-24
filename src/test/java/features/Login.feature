@@ -6,6 +6,7 @@ Feature: Login Page
     When I enter "<UserName>" and "<Password>"
     And I click on Login Button
 
+  @Sanity
   Scenario Outline: Positive Login
     Then I get redirected to Products Page
 

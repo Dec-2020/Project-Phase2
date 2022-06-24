@@ -7,7 +7,7 @@ Feature: Products Page
     And I click on Login Button
     Then I get redirected to Products Page
 
-  @tag2
+  @Regression
   Scenario: Validate prices of the Products
     And I get Products Details as
       | Sauce Labs Fleece Jacket | $49.99 |
