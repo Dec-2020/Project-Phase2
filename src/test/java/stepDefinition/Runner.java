@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 			plugin = {"html:target/html-cucumber","json:target/cucumber.json"},
 			features = "src/test/java/features",
-			tags = {"@Sanity","@Regression"},
+			tags = {"@Sanity, @Regression"},
 			glue = {"stepDefinition"}
 		)
 

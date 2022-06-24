@@ -1,0 +1,392 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To open browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25579463,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open browser",
+            "match": {
+              "location": "LoginSteps.i_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224188800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"\u003cUserName\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUserName\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.i_enter_correct_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69521580,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-24T14:35:17.009Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1325710051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Positive Login",
+        "description": "",
+        "id": "login-page;positive-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 108873268,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 599102,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get redirected to Products Page",
+            "match": {
+              "location": "LoginSteps.i_get_redirected_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "To open browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 384420,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open browser",
+            "match": {
+              "location": "LoginSteps.i_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252699581,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"\u003cUserName\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUserName\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.i_enter_correct_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67911952,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-24T14:35:18.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 904257678,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Positive Login",
+        "description": "",
+        "id": "login-page;positive-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87693104,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 619388,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get redirected to Products Page",
+            "match": {
+              "location": "LoginSteps.i_get_redirected_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To open browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 539332,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open browser",
+            "match": {
+              "location": "LoginSteps.i_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237366279,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.i_enter_correct_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134837689,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282649,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get redirected to Products Page",
+            "match": {
+              "location": "LoginSteps.i_get_redirected_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-24T14:35:20.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 964766010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate prices of the Products",
+        "description": "",
+        "id": "products-page;validate-prices-of-the-products",
+        "after": [
+          {
+            "result": {
+              "duration": 109189917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157046379,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get Products Details as",
+            "match": {
+              "location": "ProductsSteps.i_get_products_details_as_and(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket",
+                  "$49.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie",
+                  "$7.99"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductsFeature"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Products Page",
+    "description": "",
+    "id": "products-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Products.feature",
+    "tags": [
+      {
+        "name": "@ProductsFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
